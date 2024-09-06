@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:1.2
 
-FROM node:18.13.0-slim AS base
+FROM node:hydrogen-bookworm-slim AS base
 RUN apt-get update && apt-get install -y \
   ca-certificates \
   git \
